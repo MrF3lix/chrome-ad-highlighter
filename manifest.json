@@ -1,0 +1,34 @@
+{
+    "name": "Ad Highlighter",
+    "version": "0.1",
+    "description": "An extension that highlights ads in Google search.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "declarativeContent",
+        "storage",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "src/background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "asset/img/adHighlighter16.png",
+            "32": "asset/img/adHighlighter32.png",
+            "48": "asset/img/adHighlighter48.png",
+            "128": "asset/img/adHighlighter128.png"
+        }
+    },
+    "icons": {
+        "16": "asset/img/adHighlighter16.png",
+        "32": "asset/img/adHighlighter32.png",
+        "48": "asset/img/adHighlighter48.png",
+        "128": "asset/img/adHighlighter128.png"
+    },
+    "manifest_version": 2
+}
